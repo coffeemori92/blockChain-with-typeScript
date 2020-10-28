@@ -9,6 +9,7 @@
   "author": "coffeemori",
   "license": "ISC",
   "dependencies": {
+    "crypto-js": "^4.0.0",
     "typescript": "^4.0.5"
   },
   "devDependencies": {
