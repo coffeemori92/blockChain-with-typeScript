@@ -1,9 +1,17 @@
-const person = 'coffeemori';
-const age = 24;
-const gender = 'male';
-
-const sayHi = (name: string, age: number, gender: string): void => {
-  console.log(`Hello ${name}, you are ${age}, you are a ${gender}`);
+interface Human {
+  name: string,
+  age: number,
+  gender: string,
 };
 
-sayHi(person, age, gender);
+const person = {
+  name: 'coffeemori',
+  gender: 'male',
+  age: 24,
+};
+
+const sayHi = (person: Human): void => {
+  console.log(`Hello ${person.name}, you are ${person.age}, you are a ${person.gender}`);
+};
+
+sayHi(person);
