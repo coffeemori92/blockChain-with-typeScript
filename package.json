@@ -1,0 +1,15 @@
+{
+  "name": "blockchain-with-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node index.js"
+  },
+  "author": "coffeemori",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.0.5"
+  }
+}
